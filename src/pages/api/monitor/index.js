@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const apiUrl = 'http://62.234.23.62:9999/api/monitor';
+  const apiUrl = 'http://62.234.23.62:9999/api/monitor/latest';
 
   try {
     const response = await fetch(apiUrl, {

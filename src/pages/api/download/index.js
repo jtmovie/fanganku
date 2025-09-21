@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const apiUrl = 'http://62.234.23.62:9999/api/download';
+  const apiUrl = 'http://62.234.23.62:9999/api/download/tasks';
 
   try {
     const response = await fetch(apiUrl, {
